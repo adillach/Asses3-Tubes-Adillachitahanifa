@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoarding"
+    android:background="#FFFFFF"
+    android:id="@+id/on_boarding">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-66dp"
+        android:layout_marginEnd="-8dp"
+        android:src="@drawable/img_6">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="154dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="244dp"
+        android:src="@drawable/img_7">
+    </ImageView>
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-116dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="116dp"
+        android:gravity="center"
+        android:text="Hai Adilla,"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/person1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="345sp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/baseline_person_2_24">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-58dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="75dp"
+        android:gravity="center"
+        android:text="Bagaimana kabarmu?"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="normal"/>
+
+    <ImageView
+        android:layout_width="378dp"
+        android:layout_height="113dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="19dp"
+        android:src="@drawable/rectangle" />
+
+    <ImageView
+        android:layout_width="154dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/rectangle1">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="318dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="57dp"
+        android:src="@drawable/vector">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="98dp"
+        android:src="@drawable/checkyourmood">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="331dp"
+        android:src="@drawable/ddd">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="71dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="250dp"
+        android:src="@drawable/pelajar">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="71dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="249dp"
+        android:src="@drawable/tahun">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="287dp"
+        android:id="@+id/book"
+        android:src="@drawable/rectangle2">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="342dp"
+        android:layout_marginEnd="291dp"
+        android:src="@drawable/bookbookmark">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="147dp"
+        android:id="@+id/video"
+        android:src="@drawable/rectangle2">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="155dp"
+        android:src="@drawable/vector1">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/rectangle2">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="291dp"
+        android:layout_marginTop="343dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/vector2">
+    </ImageView>
+
+
+
+    <ImageView
+        android:layout_width="449dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-39dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/vector">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="294dp"
+        android:src="@drawable/rumah">
+    </ImageView>
+
+
+
+
+
+    <ImageView
+        android:id="@+id/contact1"
+        android:layout_width="118dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="628dp"
+        android:layout_marginEnd="-20dp"
+        android:src="@drawable/baseline_contacts_24">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-128dp"
+        android:layout_marginTop="697dp"
+        android:layout_marginEnd="145dp"
+        android:gravity="center"
+        android:text="Beranda"
+        android:textColor="#311432"
+        android:textSize="22dp"
+        android:textStyle="normal" />
+
+
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="697dp"
+        android:layout_marginEnd="-157dp"
+        android:gravity="center"
+        android:text="Contact"
+        android:textColor="#311432"
+        android:textSize="22dp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

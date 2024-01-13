@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoarding"
+    android:background="#FFFFFF"
+    android:id="@+id/on_boarding">
+
+
+
+    <ImageView
+        android:id="@+id/btnback"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="30sp"
+        android:src="@drawable/baseline_arrow_back_24">
+    </ImageView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="23dp"
+        android:gravity="center"
+        android:text="Video"
+        android:textColor="@color/purple"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/rectangelvideo">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="461dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/rectangelvideo1">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="1000dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="41dp"
+        android:text="Sex Education? Apa manfaatnya untuk dipelajari sejak dini (Bukan Hal Tabu)"
+        android:textSize="16dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="1000dp"
+        android:layout_marginTop="417dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="41dp"
+        android:text="2 days ago"
+        android:textColor="#808080"
+        android:textSize="14dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="1000dp"
+        android:layout_marginTop="633dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="41dp"
+        android:text="Bahaya Remaja yang belajar Seksualitas      lewat pornografi"
+        android:textSize="16dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="1000dp"
+        android:layout_marginTop="671dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="41dp"
+        android:text="5 days ago"
+        android:textColor="#808080"
+        android:textSize="14dp"></TextView>
+
+</RelativeLayout>

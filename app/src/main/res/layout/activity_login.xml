@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoarding"
+    android:background="#FFFFFF"
+    android:id="@+id/on_boarding">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="196dp"
+        android:layout_height="129dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/logo">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/line">
+    </ImageView>
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="1000dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="41dp"
+        android:text="Masuk"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="1000dp"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="41dp"
+        android:text="Masuk dengan No.Telp dan Password yang telah kamu buat saat daftar"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/kolomregisdanlogin"
+        android:hint="   Email/No.Tlp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="37dp"
+        android:hint="   Password"
+        android:inputType="textPassword"
+        android:background="@drawable/kolomregisdanlogin">
+
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="31dp"
+        android:text="Ingat Saya" />
+
+    <Button
+        android:id="@+id/Masuk"
+        android:layout_width="320in"
+        android:layout_height="80dp"
+        android:background="@drawable/img_4"
+        android:layout_marginTop="570dp"
+        android:text="Masuk"
+        android:textSize="17dp"
+        android:paddingBottom="23dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/Buat_akun"
+        android:layout_width="320in"
+        android:layout_height="80dp"
+        android:layout_marginTop="632dp"
+        android:paddingBottom="30dp"
+        android:textAlignment="textEnd"
+        android:paddingEnd="90dp"
+        android:paddingStart="35dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="Buat akun"/>
+
+    <TextView
+        android:layout_width="320in"
+        android:layout_height="80dp"
+        android:layout_marginTop="632dp"
+        android:paddingBottom="30dp"
+        android:textAlignment="center"
+        android:paddingEnd="85dp"
+        android:textSize="17dp"
+        android:text="Belum punya akun?"/>
+
+</RelativeLayout>
+
+
+

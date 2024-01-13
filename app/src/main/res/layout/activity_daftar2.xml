@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoarding"
+    android:background="#FFFFFF"
+    android:id="@+id/on_boarding">
+
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:text="Buat akun"
+        android:textSize="28dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Daftarkan akunmu sekarang"
+        android:textSize="17dp"
+        android:textStyle="normal">
+    </TextView>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/kolomregisdanlogin"
+        android:hint="   Email">
+    </EditText>
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="172dp"
+        android:layout_marginRight="38dp"
+        android:gravity="center"
+        android:text="Pastikan email yang kamu daftarkan adalah falid"
+        android:textSize="15dp"
+        android:textStyle="normal">
+    </TextView>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/kolomregisdanlogin"
+        android:hint="   Nama Lengkap">
+    </EditText>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/kolomregisdanlogin"
+        android:hint="   Umur">
+    </EditText>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="321dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/kolomregisdanlogin"
+        android:hint="   Alamat">
+    </EditText>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/kolomregisdanlogin"
+        android:hint="   No. Telepon">
+    </EditText>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/kolomregisdanlogin"
+        android:hint="   Status">
+    </EditText>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="507dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/kolomregisdanlogin"
+        android:inputType="textPassword"
+        android:hint="   Buat Password">
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="539dp"
+        android:layout_marginEnd="204dp"
+        android:text="Laki-Laki" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="142dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="542dp"
+        android:layout_marginEnd="25dp"
+        android:text="Perempuan" />
+
+    <Button
+        android:id="@+id/Daftar"
+        android:layout_width="320in"
+        android:layout_height="80dp"
+        android:background="@drawable/img_4"
+        android:layout_marginTop="616dp"
+        android:text="Daftar"
+        android:textSize="17dp"
+        android:paddingBottom="23dp">
+    </Button>
+</RelativeLayout>
